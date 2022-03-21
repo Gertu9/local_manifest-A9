@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="mac"
+		fetch="https://github.com/MacTavishAO"
+		revision="lineage-16.0" />
+
+	<project path="device/samsung/j4primelte" name="android_device_samsung_j4primelte" remote="mac" />
+	<project path="hardware/samsung" name="android_hardware_samsung" remote="mac" />
+	<project path="kernel/samsung/msm8917" name="android_kernel_samsung_msm8917" remote="mac" />
+	<project path="vendor/samsung/j4primelte" name="android_vendor_samsung_j4primelte" remote="mac" />
+</manifest>
